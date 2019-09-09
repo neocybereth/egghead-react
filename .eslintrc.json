@@ -14,7 +14,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -27,7 +28,8 @@
         "ecmaVersion": 2018
     },
     "plugins": [
-        "react"
+        "react",
+        "jsx-a11y"
     ],
     "rules": {
     }
